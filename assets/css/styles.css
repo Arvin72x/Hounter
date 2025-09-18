@@ -1,0 +1,219 @@
+/* reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: #10B981;
+    color: white;
+}
+
+
+/* color */
+.Project-color-blue {
+    color: #1B1C57;
+}
+
+.Project-color-gray {
+    color: #626687;
+}
+
+.Project-color-green-sign-up-text {
+    color: #047857;
+}
+
+/* background color */
+.Project-color-green-search {
+    background-color: #10B981;
+}
+
+.Project-color-green-sign-up-background {
+    background-color: #D1FAE5;
+}
+
+/* width */
+.width-50 {
+    width: 50%;
+}
+
+
+/* flex*/
+.display-flex {
+    display: flex;
+}
+
+.flex-dir-col {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.gap-05 {
+    gap: .5rem;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.gap-2 {
+    gap: 2rem;
+}
+
+.gap-3 {
+    gap: 3rem;
+}
+
+.gap-4 {
+    gap: 4rem;
+}
+
+.gap-5 {
+    gap: 5rem;
+}
+
+
+/* position */
+.pos-relative {
+    position: relative;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+.top-1 {
+    top: 1rem;
+}
+
+.top-2 {
+    top: 2rem;
+}
+
+.top-3 {
+    top: 3rem;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.right-3 {
+    right: 3rem;
+}
+
+.left-0 {
+    left: 0;
+}
+
+
+/* margin */
+.margin-auto {
+    margin: auto;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+
+
+
+/* body styles */
+body {
+    font-family: lexend;
+}
+
+/*----------- header ----------*/
+
+.logo-search {
+    padding: 3rem 6rem 0rem 10rem;
+}
+
+.Search-box h2 {
+    font-size: 3rem;
+}
+
+.outline-blue {
+    color: transparent;
+    -webkit-text-stroke: 1px #1B1C57;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-input-box input {
+    width: 100%;
+    border: 2px solid #626687;
+    padding: 1rem 10rem 1rem 4rem;
+    border-radius: 100rem;
+}
+
+.search-input-box img {
+    top: .9rem;
+    left: 2rem;
+}
+
+.search-input-box input::placeholder {
+    color: #626687;
+    font-family: inherit;
+}
+
+.Search-text {
+    text-align: center;
+    border-radius: 100rem;
+    display: inline-block;
+    padding: .8rem 1rem;
+    vertical-align: middle;
+    top: 3px;
+    bottom: 3px;
+    right: 3px;
+}
+
+.Search-text a {
+    color: white;
+    text-decoration: none;
+    margin-right: .5rem;
+    font-size: .9rem;
+}
+
+
+/*---- nav section */
+
+.nav-image img {
+    float: right;
+}
+
+.nav-items {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.189);
+    padding: .5rem 1rem;
+    border: 1px solid white;
+    border-radius: 100rem;
+    list-style: none;
+}
+
+.nav-head select {
+    font-family: inherit;
+}
+
+.nav-head select option {
+    color: #fff;
+    background-color: #047857;
+}
+
+.Sign-up-text {
+    text-decoration: none;
+    padding: .5rem 1rem;
+    border-radius: 100rem;
+}
