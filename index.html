@@ -16,7 +16,9 @@
     <!-- header section -->
     <header class="display-flex justify-content-between">
 
-        <div class="logo-search width-50 display-flex flex-dir-col gap-5">
+        <div class="logo-search width-50 display-flex flex-dir-col gap-5 pos-relative">
+            <!--هاله سبز رنگ-->
+            <div class="green-glow pos-absolute"></div>
 
             <div class="loga-head">
                 <img src="/assets/images/Logo.svg" alt="">
@@ -37,7 +39,7 @@
 
                     <div class="Search-text Project-color-green-search pos-absolute">
                         <a href="">Search</a>
-                        <img src="/assets/images/Vector.svg" alt="">
+                        <img src="/assets/images/Vector-search-dir.svg" alt="">
                     </div>
                 </div>
 
@@ -57,7 +59,7 @@
 
         <div class="nav-image width-50 pos-relative">
 
-            <img src="/assets/images/Img.svg" alt="">
+            <img src="/assets/images/Img-header.svg" alt="">
 
             <nav class="nav-head display-flex pos-absolute top-1 right-3  display-flex gap-2">
                 <ul class="display-flex gap-2">
@@ -77,6 +79,94 @@
             </nav>
         </div>
     </header>
+
+    <!-- main section -->
+    <main>
+        <search class="card-box display-flex flex-dir-col justify-content-center align-items-center gap-2 Mt-5 Mb-5">
+            <!-- title -->
+            <p class="Project-color-oringe text-1 " for="">Our Recommendation</p>
+            <!-- menu section -->
+            <div class="card-box-head width-80 display-flex justify-content-between align-items-center">
+
+                <h2 class="Project-color-blue">Featured House</h2>
+
+                <ul class="card-box-head-ul display-flex justify-content-between gap-2">
+                    <li class="display-flex align-items-center gap-05 Project-color-green-sign-up-background">
+                        <img src="/assets/images/ph_house-fill.svg" alt="">
+                        <a class="Project-color-green-sign-up-text" href="">House</a>
+                    </li>
+
+                    <li class="display-flex align-items-center gap-05 border-gray">
+                        <img src="/assets/images/ic_round-villa.svg" alt="">
+                        <a class="Project-color-gray" href="">Villa</a>
+                    </li>
+
+                    <li class="display-flex align-items-center gap-05 border-gray">
+                        <img src="/assets/images/ic_round-apartment.svg" alt="">
+                        <a class="Project-color-gray" href="">Apartment</a>
+                    </li>
+                </ul>
+
+                <div class="card-box-direction">
+                    <img class="cursor-pointer" src="/assets/images/Search button (1).svg" alt="">
+                    <img class="cursor-pointer" src="/assets/images/Search button.svg" alt="">
+                </div>
+            </div>
+            <!-- card section -->
+            <search class="card-item-box width-80 display-flex justify-content-between align-items-center">
+
+                <div class="card-item display-flex flex-dir-col gap-2">
+                    <img class="card-item-img" src="/assets/images/Img.svg" alt="">
+
+                    <div class="card-item-text display-flex flex-dir-col gap-1">
+                        <strong class="text-3">Roselands House</strong>
+                        <b class="Project-color-gray">$ 35.000.000</b>
+                        <div class="card-item-seller display-flex gap-1">
+                            <img src="/assets/images/Ellipse 6.svg" alt="">
+                            <div class="seller-name display-flex flex-dir-col gap-05">
+                                <p>Dianne Russell</p>
+                                <p class="Project-color-gray">Manchester, Kentucky</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-item display-flex flex-dir-col gap-2">
+                    <img class="card-item-img" src="/assets/images/Img (1).svg" alt="">
+
+                    <div class="card-item-text display-flex flex-dir-col gap-1">
+                        <strong class="text-3">Woodlandside</strong>
+                        <b class="Project-color-gray">$ 20.000.000</b>
+                        <div class="card-item-seller display-flex gap-1">
+                            <img src="/assets/images/Ellipse 6 (1).svg" alt="">
+                            <div class="seller-name display-flex flex-dir-col gap-05">
+                                <p>Robert Fox</p>
+                                <p class="Project-color-gray">Dr. San Jose, South Dakota</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-item display-flex flex-dir-col gap-2">
+                    <img class="card-item-img" src="/assets/images/Img (2).svg" alt="">
+
+                    <div class="card-item-text display-flex flex-dir-col gap-1">
+                        <strong class="text-3">The Old Lighthouse</strong>
+                        <b class="Project-color-gray">$ 44.000.000</b>
+                        <div class="card-item-seller display-flex gap-1">
+                            <img src="/assets/images/Ellipse 6 (2).svg" alt="">
+                            <div class="seller-name display-flex flex-dir-col gap-05">
+                                <p>Ronald Richards</p>
+                                <p class="Project-color-gray">Santa Ana, Illinois</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </search>
+        </search>
+
+    </main>
 </body>
 
 </html>

@@ -20,6 +20,10 @@
     color: #626687;
 }
 
+.Project-color-oringe {
+    color: #F59E0B;
+}
+
 .Project-color-green-sign-up-text {
     color: #047857;
 }
@@ -36,6 +40,14 @@
 /* width */
 .width-50 {
     width: 50%;
+}
+
+.width-70 {
+    width: 70%;
+}
+
+.width-80 {
+    width: 80%;
 }
 
 
@@ -124,6 +136,33 @@
     margin: auto;
 }
 
+.Mt-5 {
+    margin-top: 5rem;
+}
+
+.Mb-5 {
+    margin-bottom: 5rem;
+}
+
+
+/* font size */
+.text-1 {
+    font-size: .7rem;
+}
+
+.text-2 {
+    font-size: 1rem;
+}
+
+.text-3 {
+    font-size: 1.5rem;
+}
+
+.text-4 {
+    font-size: 2rem;
+}
+
+/* curso */
 .cursor-pointer {
     cursor: pointer;
 }
@@ -216,4 +255,47 @@ body {
     text-decoration: none;
     padding: .5rem 1rem;
     border-radius: 100rem;
+}
+
+.green-glow {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+
+    background: radial-gradient(circle,
+            rgba(0, 255, 187, 0.6) 0%,
+            /* مرکز روشن */
+            rgba(0, 255, 187, 0.2) 40%,
+            /* کم‌رنگ‌تر */
+            rgba(0, 255, 187, 0) 70%
+            /* محو شدن */
+        );
+
+    z-index: -1;
+    left: -10rem;
+    top: -10rem;
+}
+
+
+/*---------- main section -------*/
+
+.card-box-head h2 {
+    font-size: 1.5rem;
+}
+
+.card-box-head-ul {
+    list-style: none;
+}
+
+.card-box-head-ul li {
+    padding: .5rem 1rem;
+    border-radius: 100rem;
+}
+
+.border-gray {
+    border: 2px solid #E0E3EB;
+}
+
+.card-box-head-ul li a {
+    text-decoration: none;
 }
