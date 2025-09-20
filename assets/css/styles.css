@@ -90,6 +90,10 @@
     align-items: center;
 }
 
+.align-content-between {
+    align-content: space-between;
+}
+
 .felx-wrap {
     flex-wrap: wrap;
 }
@@ -170,6 +174,14 @@
 
 .Mt-5 {
     margin-top: 5rem;
+}
+
+.Mt-8 {
+    margin-top: 8rem;
+}
+
+.Mb-1 {
+    margin-bottom: 1rem;
 }
 
 .Mb-2 {
@@ -442,7 +454,6 @@ body {
     background-color: #10B981;
     border-radius: 100rem;
     padding: 1rem 1.5rem;
-    margin-top: 8rem;
     border: none;
     font-family: inherit;
     transition: all ease .5s;
@@ -456,4 +467,14 @@ body {
 .Comments-btn a {
     text-decoration: none;
     color: #fff;
+}
+
+/*------------- Articles section */
+
+.Articles-section h2 {
+    text-align: center;
+}
+
+.big-Article-text-description {
+    text-align: justify;
 }
