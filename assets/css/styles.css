@@ -10,7 +10,6 @@
     color: white;
 }
 
-
 /* color */
 .Project-color-blue {
     color: #1B1C57;
@@ -18,6 +17,10 @@
 
 .Project-color-gray {
     color: #626687;
+}
+
+.Project-color-gray-blue {
+    color: #3C4563;
 }
 
 .Project-color-oringe {
@@ -38,6 +41,10 @@
 }
 
 /* width */
+.width-40 {
+    width: 40%;
+}
+
 .width-50 {
     width: 50%;
 }
@@ -70,6 +77,10 @@
 
 .align-items-center {
     align-items: center;
+}
+
+.felx-wrap {
+    flex-wrap: wrap;
 }
 
 .gap-05 {
@@ -118,6 +129,10 @@
     top: 3rem;
 }
 
+.bottom--3 {
+    bottom: -3rem;
+}
+
 .right-0 {
     right: 0;
 }
@@ -130,18 +145,39 @@
     left: 0;
 }
 
+.left--3 {
+    left: -3rem;
+}
+
 
 /* margin */
 .margin-auto {
     margin: auto;
 }
 
+.Mt-2 {
+    margin-top: 2rem;
+}
+
 .Mt-5 {
     margin-top: 5rem;
 }
 
+.Mb-3 {
+    margin-bottom: 3rem;
+}
+
 .Mb-5 {
     margin-bottom: 5rem;
+}
+
+.Mb-7 {
+    margin-bottom: 7rem;
+}
+
+/* padding */
+.Pt-1 {
+    padding-top: 1rem;
 }
 
 
@@ -217,6 +253,12 @@ body {
     top: 3px;
     bottom: 3px;
     right: 3px;
+    transition: all ease .5s;
+}
+
+.Search-text:hover {
+    background-color: #F59E0B;
+    transform: translateX(2px);
 }
 
 .Search-text a {
@@ -279,6 +321,8 @@ body {
 
 /*---------- main section -------*/
 
+
+/*----- card-box section */
 .card-box-head h2 {
     font-size: 1.5rem;
 }
@@ -298,4 +342,47 @@ body {
 
 .card-box-head-ul li a {
     text-decoration: none;
+}
+
+/*----- tour house section */
+
+.call-Contact {
+    padding: .5rem .9rem;
+    background-color: #10B981;
+    border-radius: 100rem;
+    border: none;
+    font-family: inherit;
+    transition: all ease .5s;
+}
+
+.call-Contact:hover {
+    background-color: #F59E0B;
+    transform: translateX(2px);
+}
+
+.call-Contact a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.tour-house-img {
+    float: right;
+}
+
+.yellow-glow {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle,
+            rgba(255, 204, 0, 0.47) 0%,
+            /* مرکز روشن */
+            rgba(255, 204, 0, 0.2) 40%,
+            /* کم‌رنگ‌تر */
+            rgba(255, 225, 0, 0) 70%
+            /* محو شدن */
+        );
+
+    z-index: -1;
+    right: -10rem;
+    top: -8rem;
 }
