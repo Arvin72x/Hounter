@@ -45,6 +45,10 @@
 }
 
 /* width */
+.width-30 {
+    width: 30%;
+}
+
 .width-40 {
     width: 40%;
 }
@@ -55,6 +59,10 @@
 
 .width-50 {
     width: 50%;
+}
+
+.width-60 {
+    width: 60%;
 }
 
 .width-70 {
@@ -255,6 +263,7 @@ body {
     border: 2px solid #626687;
     padding: 1rem 10rem 1rem 4rem;
     border-radius: 100rem;
+    font-family: inherit;
 }
 
 .search-input-box img {
@@ -289,6 +298,14 @@ body {
     text-decoration: none;
     margin-right: .5rem;
     font-size: .9rem;
+}
+
+.Partnership-icon img {
+    transition: all ease 1s;
+}
+
+.Partnership-icon img:hover {
+    transform: translateY(-6px);
 }
 
 
@@ -383,6 +400,14 @@ body {
     text-decoration: none;
 }
 
+.card-item {
+    transition: all ease 1s;
+}
+
+.card-item:hover {
+    transform: translateY(-4px);
+}
+
 /*----- tour house section */
 .call-Contact {
     padding: .5rem .9rem;
@@ -469,7 +494,25 @@ body {
     color: #fff;
 }
 
+.Comments-text {
+    transition: all ease 1s;
+}
+
+.Comments-item:hover .Comments-text {
+    transform: translateY(-3rem);
+} 
+
 /*------------- Articles section */
+
+.mini-Article,
+.big-Article {
+    transition: all ease 1s;
+}
+
+.mini-Article:hover,
+.big-Article:hover {
+    transform: translateY(-10px);
+}
 
 .Articles-section h2 {
     text-align: center;
@@ -477,4 +520,23 @@ body {
 
 .big-Article-text-description {
     text-align: justify;
+}
+
+
+/*------------- footer section --------*/
+.about-us>p {
+    text-align: justify;
+}
+
+.footer-lists {
+    list-style: none;
+}
+
+.footer-lists li:first-child {
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.footer-menu {
+    justify-content: end;
 }
