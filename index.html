@@ -14,7 +14,7 @@
 
 <body>
     <!-- header section -->
-    <header class="display-flex justify-content-between">
+    <header class="display-flex justify-content-between Mobile-display-none">
         <!-- logo and search section -->
         <div class="logo-search width-50 display-flex flex-dir-col gap-5 pos-relative">
             <!-- green glow-->
@@ -84,7 +84,7 @@
         <!-- card-box section -->
         <search class="card-box display-flex flex-dir-col justify-content-center align-items-center gap-2 Mt-5 Mb-7">
             <!-- title -->
-            <p class="Project-color-oringe text-1 " for="">Our Recommendation</p>
+            <p class="Project-color-oringe text-1">Our Recommendation</p>
             <!-- menu section -->
             <div class="card-box-head width-80 display-flex justify-content-between align-items-center">
 
@@ -107,7 +107,7 @@
                     </li>
                 </ul>
 
-                <div class="card-box-direction">
+                <div class="card-box-direction Mobile-display-none">
                     <img class="cursor-pointer" src="/assets/images/Search button (1).svg" alt="">
                     <img class="cursor-pointer" src="/assets/images/Search button.svg" alt="">
                 </div>
@@ -187,7 +187,7 @@
                         <span class="Project-color-gray-blue text-1">House Detail</span>
 
                         <div
-                            class="Project-color width-70 display-flex justify-content-between align-items-center felx-wrap gap-1">
+                            class="house-details-box-icon width-70 display-flex justify-content-between align-items-center felx-wrap gap-1">
                             <span class="display-flex align-items-center gap-1">
                                 <img src="/assets/images/Shape.svg" alt="Shape-icon">
                                 <b class="text-1 Project-color-gray-blue">4 Bedrooms</b>
@@ -228,13 +228,13 @@
 
                 <div class="tour-house-img pos-relative">
                     <a href="/assets/images/Rectangle 17.svg">
-                        <img class=" " src="/assets/images/Rectangle 17.svg" alt="">
+                        <img src="/assets/images/Rectangle 17.svg" alt="">
                     </a>
 
                     <div class="tour-house-img-next pos-absolute left--3 bottom--3 cursor-pointer">
                         <img src=" /assets/images/Rectangle 18.svg" alt="">
-                        <img src="/assets/images/Rectangle 19.svg" alt="">
-                        <img src="/assets/images/Rectangle 20.svg" alt="">
+                        <img class="Mobile-display-none" src="/assets/images/Rectangle 19.svg" alt="">
+                        <img class="Mobile-display-none" src="/assets/images/Rectangle 20.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -406,7 +406,7 @@
         <!-- Subscribe section -->
         <section class="Subscribe display-flex justify-content-center align-items-center">
 
-            <div class="pos-relative width-80  Mt-5 Mb-5 ">
+            <div class="pos-relative width-80 Mt-5 Mb-5 Mobile-display-none">
                 <img class="width-100" src="/assets/images/Subscribe-bg.svg" alt="Subscribe-bg">
 
                 <img class="sofa pos-absolute " src="/assets/images/Rectangle 12.svg" alt="">
@@ -424,11 +424,15 @@
                 <h3 class="text-3">Subscribe For More Info <br>
                     and update from Hounter</h3>
 
-                <input class="Subscribe-input width-100" type="email" placeholder="Your email here">
+                <div class="Subscribe-input-box pos-relative">
+                    
+                    <input class="Subscribe-input width-100 pos-relative" type="email" placeholder="Your email here">
 
-                <img class="Subscribe-eamil-ico pos-absolute" src="/assets/images/email.svg" alt="email svg">
+                    <img class="Subscribe-eamil-ico pos-absolute" src="/assets/images/email.svg" alt="email svg">
 
-                <a class="Subscribe-btn pos-absolute" href="#">Subsribe Now</a>
+                    <a class="Subscribe-btn pos-absolute" href="#">Subsribe Now</a>
+                </div>
+
 
             </div>
 
